@@ -107,6 +107,7 @@ img{
 }
 .gph-pht{
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 450px;
     text-align: center;
     display: flex;
@@ -204,12 +205,16 @@ footer{
     font-size: 12px;
     color: #172523;
 }
-@media(max-width:430px){
+@media(max-width:530px){
 .links{
     display: none;
 }
 .hamburger{
     display: flex;
+}
+.hero h1{
+    font-size: 45px;
+    text-align: center;
 }
 nav{
     position: relative;
@@ -234,9 +239,12 @@ nav{
     order: -1;
 }
 .text-container{
-    padding: 70px 3px;
+    padding: 70px 10px;
     margin: 0;
     width: 100vw;
+}
+.text-container h2{
+    font-size: 30px;
 }
 .img-container{
     width: 100vw;
